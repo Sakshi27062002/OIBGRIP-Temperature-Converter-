@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(245, 7, 185);
+    display: grid;
+    place-items: center;
+    border-style: double;
+}
+
+#tmp{
+    border:none;
+    padding: 10px;
+    height: 400px;
+    width: 100px;
+    font-size:20px;
+    margin-top: 20px;
+    
+}
+form{
+    background-color:rgb(225, 180, 183);
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow:0 10px 6pc -6px rgb(252, 4, 227);
+    -webkit-box-shadow: 0 10px 6pc -6px rgb(252, 4, 227);
+    -moz-box-shadow: 0 10px 6pc -6px rgb(252, 4, 227);
+}
+
+#temdiff{
+    height: 40px;
+    border: black;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: center;
+    align-items: center;
+}
+
+#temCalc label{
+    font-size: 30px;
+    border: black;    
+}
+
+#resultContainer{
+    font-size: 28px;
+    font-family: 'ubuntu',sans-serif;
+    color:rgb(253, 4, 228);
+    font: bolder;
+}
+[type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color:white;
+}
+
+.enter{
+    font-size: x-large;
+}
+
